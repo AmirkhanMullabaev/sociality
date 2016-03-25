@@ -1,7 +1,7 @@
 /*======================= NEW ICONS, NEW STYLES ==================================*/
 /* --------------- TWITTER */
 
-.social-share-button-twitter {
+.sociality-twitter {
   display: inline-block;
   position: relative;
   text-indent: -9999px;
@@ -10,7 +10,7 @@
   background:url(icons/social_icons_transp.svg) no-repeat;
 }
 
-.social-share-button-twitter span {
+.sociality-twitter span {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background:url(icons/social_icons_transp.svg) no-repeat;
@@ -21,13 +21,13 @@
   -o-transition:      opacity 0.5s;
 }
 
-.social-share-button-twitter:hover span {
+.sociality-twitter:hover span {
   opacity: 1;
 }
 
 /* --------------- Facebook */
 
-.social-share-button-facebook {
+.sociality-facebook {
   display: inline-block;
   position: relative;
   text-indent: -9999px;
@@ -37,7 +37,7 @@
   background-position:0 -180px;
 }
 
-.social-share-button-facebook span {
+.sociality-facebook span {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background:url(icons/social_icons_transp.svg) no-repeat;
@@ -48,13 +48,13 @@
   -o-transition:      opacity 0.5s;
 }
 
-.social-share-button-facebook:hover span {
+.sociality-facebook:hover span {
   opacity: 1;
 }
 
 /* --------------- Google plus */
 
-.social-share-button-google_plus{
+.sociality-google_plus{
   display: inline-block;
   position: relative;
   text-indent: -9999px;
@@ -64,7 +64,7 @@
   background-position:0 -270px;
 }
 
-.social-share-button-google_plus span {
+.sociality-google_plus span {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background:url(icons/social_icons_transp.svg) no-repeat;
@@ -75,13 +75,13 @@
   -o-transition:      opacity 0.5s;
 }
 
-.social-share-button-google_plus:hover span {
+.sociality-google_plus:hover span {
   opacity: 1;
 }
 
 /* --------------- LINKEDIN */
 
-.social-share-button-linkedin {
+.sociality-linkedin {
   display: inline-block;
   position: relative;
   text-indent: -9999px;
@@ -91,7 +91,7 @@
   background-position:0 -30px;
 }
 
-.social-share-button-linkedin span {
+.sociality-linkedin span {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background:url(icons/social_icons_transp.svg) no-repeat;
@@ -102,6 +102,6 @@
   -o-transition:      opacity 0.5s;
 }
 
-.social-share-button-linkedin:hover span {
+.sociality-linkedin:hover span {
   opacity: 1;
 }
