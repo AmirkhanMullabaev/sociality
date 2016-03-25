@@ -1,0 +1,107 @@
+/*======================= NEW ICONS, NEW STYLES ==================================*/
+/* --------------- TWITTER */
+
+.social-share-button-twitter {
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+}
+
+.social-share-button-twitter span {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position: -30px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  -o-transition:      opacity 0.5s;
+}
+
+.social-share-button-twitter:hover span {
+  opacity: 1;
+}
+
+/* --------------- Facebook */
+
+.social-share-button-facebook {
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position:0 -180px;
+}
+
+.social-share-button-facebook span {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position: -30px -180px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  -o-transition:      opacity 0.5s;
+}
+
+.social-share-button-facebook:hover span {
+  opacity: 1;
+}
+
+/* --------------- Google plus */
+
+.social-share-button-google_plus{
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position:0 -270px;
+}
+
+.social-share-button-google_plus span {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position: -30px -270px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  -o-transition:      opacity 0.5s;
+}
+
+.social-share-button-google_plus:hover span {
+  opacity: 1;
+}
+
+/* --------------- LINKEDIN */
+
+.social-share-button-linkedin {
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position:0 -30px;
+}
+
+.social-share-button-linkedin span {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background:url(icons/social_icons_transp.svg) no-repeat;
+  background-position: -30px -30px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  -o-transition:      opacity 0.5s;
+}
+
+.social-share-button-linkedin:hover span {
+  opacity: 1;
+}
