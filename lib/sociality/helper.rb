@@ -15,7 +15,7 @@ module Sociality
         link_title = t "sociality.share_to", :name => t("sociality.#{name.downcase}")
         html << link_to(content_tag(:span), "#", {:rel => ["nofollow", rel],
                                  "data-site" => name,
-                                 :class => "social-share-button-#{name}",
+                                 :class => "sociality-#{name}",
                                  :onclick => "return Sociality.share(this);",
                                  :title => h(link_title)}.merge(extra_data).merge(special_data)).html_safe
       end
